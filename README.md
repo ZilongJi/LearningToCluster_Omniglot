@@ -1,2 +1,2 @@
 # LearningToCluster_Omniglot
-Learning to cluster by self-training(Omniglot Demostration) 
+Learning to cluster by self-training(Omniglot) 
