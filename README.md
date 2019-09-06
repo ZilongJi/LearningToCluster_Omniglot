@@ -8,15 +8,16 @@ pytorch1.2
 ### Dataset
 Omniglot
 ### Model
-
+![image](https://github.com/ZilongJi/LearningToCluster_Omniglot/blob/master/doc/model.png)
 ### Training
 1, put omniglot dataset in Dataset
 2, python ./train/train_hardtriplet.py --hard_mining True
 
 ### Results
 1, Compare with other unsupervised few shot learners
-
+![image](https://github.com/ZilongJi/LearningToCluster_Omniglot/blob/master/doc/table.png)
 2, Clustering quality with T-SNE visualization at different training iterations
+![image](https://github.com/ZilongJi/LearningToCluster_Omniglot/blob/master/doc/cluster.png)
 ### Questions
 Please contact jizilong@mail.bnu.edu.cn
 
