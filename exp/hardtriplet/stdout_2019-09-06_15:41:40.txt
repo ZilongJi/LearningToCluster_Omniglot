@@ -1,0 +1,105 @@
+Tesing before self-training
+**************************************************
+Few Shot Learning Testing
+**************************************************
+current testing epoch 0
+current testing epoch 1
+current testing epoch 2
+current testing epoch 3
+current testing epoch 4
+Test Acc: 0.5717333349883557
+Computing original distance...
+Starting re_ranking...
+eps in cluster: 0.743
+Clustering and labeling...
+(array([  1,   2,   3,   4,   5,   6,   9,  11,  13,  14,  15,  20,  24,
+        25,  26,  28,  31,  34,  35,  36,  38,  39,  41,  42,  43,  44,
+        48,  50,  51,  53,  54,  55,  56,  57,  59,  60,  62,  63,  67,
+        68,  69,  71,  74,  75,  77,  81,  84,  87,  88,  93,  94,  95,
+        96,  97,  98,  99, 101, 102, 104, 105, 108, 109, 113, 115, 117,
+       120, 121, 125, 128, 129, 130, 134, 135, 136, 137, 138, 139, 140,
+       141, 142, 144, 145, 146, 147, 148, 149, 150, 154, 155, 160, 161,
+       163, 168, 174, 179, 180, 188, 189, 190, 191, 192, 194, 195, 197,
+       201, 202, 205, 206, 207, 213, 215, 217, 222, 228, 241, 242, 243,
+       245, 252, 255, 256, 257, 264, 266, 267, 269, 278, 285, 291, 292,
+       298, 300, 302, 307, 309, 312, 318, 321, 322, 327, 331, 343, 345,
+       346]), array([  11, 7604,   16,   18,    9,   10,    9,   12,    7,    8,    7,
+         21,   25,   11,   10,    6,   25,    6,    8,   17,   19,    7,
+         18,   15,   15,   17,    6,    6,    6,   26,   12,    7,   26,
+          6,    6,   24,    7,   10,    7,    6,    8,    9,   17,    8,
+          8,    7,    6,    7,    7,    7,   25,    9,    6,   15,   14,
+          6,   29,    8,   23,   16,   13,   16,   12,   13,   38,    8,
+          8,    8,    6,    6,   22,   22,   13,   12,    8,    8,   20,
+         20,    6,    7,    7,    6,   25,    9,    9,   12,    9,    8,
+         27,    6,    6,    6,    6,    6,   15,    6,   10,    6,    9,
+          7,    8,    6,   19,   15,   10,    8,   11,    6,   14,    7,
+          7,    7,    9,   20,   10,    7,    6,    6,    6,    8,    7,
+          7,    6,    8,   17,    7,    9,    6,    7,    6,    7,    7,
+          6,    6,    8,    6,    6,    9,    6,   12,    6,    7,    7,
+          7]))
+Iteration 1 have 359 training ids, 9152 training images, NMI is 0.39332529203312516, AMI is 0.05023075293490071, SMI is 0.43476780846306634
+=====> lr stays the same as base_lr 0.0050000000
+Ep 0, 4.09s, triloss 2.1757, total loss 2.1757
+=====> lr stays the same as base_lr 0.0050000000
+Ep 1, 3.90s, triloss 1.8478, total loss 1.8478
+=====> lr stays the same as base_lr 0.0050000000
+Ep 2, 3.77s, triloss 1.6461, total loss 1.6461
+=====> lr stays the same as base_lr 0.0050000000
+Ep 3, 3.96s, triloss 1.5561, total loss 1.5561
+=====> lr stays the same as base_lr 0.0050000000
+Ep 4, 3.72s, triloss 1.5035, total loss 1.5035
+=====> lr stays the same as base_lr 0.0050000000
+Ep 5, 3.83s, triloss 1.4663, total loss 1.4663
+=====> lr stays the same as base_lr 0.0050000000
+Ep 6, 3.75s, triloss 1.4470, total loss 1.4470
+=====> lr stays the same as base_lr 0.0050000000
+Ep 7, 3.96s, triloss 1.4198, total loss 1.4198
+=====> lr stays the same as base_lr 0.0050000000
+Ep 8, 3.83s, triloss 1.4119, total loss 1.4119
+=====> lr stays the same as base_lr 0.0050000000
+Ep 9, 3.69s, triloss 1.4038, total loss 1.4038
+=====> lr stays the same as base_lr 0.0050000000
+Ep 10, 3.77s, triloss 1.3869, total loss 1.3869
+=====> lr stays the same as base_lr 0.0050000000
+Ep 11, 3.76s, triloss 1.3750, total loss 1.3750
+=====> lr stays the same as base_lr 0.0050000000
+Ep 12, 3.79s, triloss 1.3682, total loss 1.3682
+=====> lr stays the same as base_lr 0.0050000000
+Ep 13, 3.64s, triloss 1.3702, total loss 1.3702
+=====> lr stays the same as base_lr 0.0050000000
+Ep 14, 4.01s, triloss 1.3529, total loss 1.3529
+=====> lr stays the same as base_lr 0.0050000000
+Ep 15, 4.26s, triloss 1.3559, total loss 1.3559
+=====> lr stays the same as base_lr 0.0050000000
+Ep 16, 3.94s, triloss 1.3441, total loss 1.3441
+=====> lr stays the same as base_lr 0.0050000000
+Ep 17, 3.72s, triloss 1.3480, total loss 1.3480
+=====> lr stays the same as base_lr 0.0050000000
+Ep 18, 3.97s, triloss 1.3399, total loss 1.3399
+=====> lr stays the same as base_lr 0.0050000000
+Ep 19, 3.84s, triloss 1.3379, total loss 1.3379
+=====> lr stays the same as base_lr 0.0050000000
+Ep 20, 3.69s, triloss 1.3358, total loss 1.3358
+=====> lr stays the same as base_lr 0.0050000000
+Ep 21, 3.90s, triloss 1.3352, total loss 1.3352
+=====> lr stays the same as base_lr 0.0050000000
+Ep 22, 3.86s, triloss 1.3306, total loss 1.3306
+=====> lr stays the same as base_lr 0.0050000000
+Ep 23, 3.78s, triloss 1.3271, total loss 1.3271
+=====> lr stays the same as base_lr 0.0050000000
+Ep 24, 3.90s, triloss 1.3261, total loss 1.3261
+=====> lr adjusted to 0.002939008
+Ep 25, 3.83s, triloss 1.3217, total loss 1.3217
+=====> lr adjusted to 0.0022532852
+Ep 26, 3.76s, triloss 1.3221, total loss 1.3221
+=====> lr adjusted to 0.0017275536
+Ep 27, 3.79s, triloss 1.3215, total loss 1.3215
+=====> lr adjusted to 0.0013244846
+Ep 28, 3.99s, triloss 1.3244, total loss 1.3244
+=====> lr adjusted to 0.0010154588
+Ep 29, 3.61s, triloss 1.3176, total loss 1.3176
+=====> lr adjusted to 0.0007785342
+Ep 30, 3.69s, triloss 1.3191, total loss 1.3191
+=====> lr adjusted to 0.0005968883
+Ep 31, 3.71s, triloss 1.3184, total loss 1.3184
+=====> lr adjusted to 0.0004576237
